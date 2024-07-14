@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<meta name="description" content="Overview Svelt - Andreas Hegenbar" />
 </svelte:head>
 
 <section>

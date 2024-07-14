@@ -1,18 +1,19 @@
 <script>
-	import Header from './Header.svelte';
 	import '../app.css';
+	import Header from '../lib/Header.svelte';
+    import Footer from '../lib/Footer.svelte';
+    import Navbar from '../lib/Navbar.svelte';
 </script>
 
 <div class="app">
-	<Header />
+	<Header title="Overview Svelte" />
+	<Navbar />
 
 	<main>
 		<slot />
 	</main>
 
-	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-	</footer>
+	<Footer />
 </div>
 
 <style>
