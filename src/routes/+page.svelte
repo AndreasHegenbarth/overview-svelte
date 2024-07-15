@@ -6,7 +6,7 @@
 
 <svelte:head>
 	<title>Home</title>
-	<meta name="description" content="Overview Svelt - Andreas Hegenbar" />
+	<meta name="description" content="Overview Svelt - Andreas Hegenbarth" />
 </svelte:head>
 
 <section>
